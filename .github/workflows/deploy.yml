@@ -1,40 +1,29 @@
-name: Build and Deploy
+name: Deploy to GitHub Pages
+
 on:
-  workflow_dispatch:
   push:
     branches:
-      - main
-  schedule:
-    - cron: "0 12 * * 1"
+      - main  # Change this if your branch is different
+
+permissions:
+  contents: write
 
 jobs:
-  build-and-deploy:
+  deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout 🛎️
-        uses: actions/checkout@v3
-        with:
-          persist-credentials: false
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - name: Setup Node.js 🔧
-        uses: actions/setup-node@v3
-        with:
-          node-version: 20.x  # Ensure Node.js is compatible
+      - name: Install dependencies
+        run: npm install
 
-      - name: Update npm 🚀
-        run: npm install -g npm@latest
+      - name: Build the project
+        run: npm run build
 
-      - name: Install and Build 🔧
-        run: |
-          npm install
-          npm run build
-
-      - name: Disable Jekyll processing 🚀
-        run: touch build/.nojekyll
-
-      - name: Deploy 🚀
+      - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: build
+          branch: gh-pages
+          folder: build  # Change 'dist' to your build folder (e.g., 'build' for React)
