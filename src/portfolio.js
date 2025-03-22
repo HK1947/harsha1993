@@ -51,14 +51,23 @@ const skillsSection = {
   title: "What I do",
   subTitle: "PASSIONATE AUTOMATION TESTER WHO ENSURES HIGH-QUALITY SOFTWARE",
   skills: [
-    emoji("⚡ Writing robust automation test scripts using Selenium, WebDriverIO, and Cypress"),
-    emoji("⚡ Implementing API testing with Postman, RestAssured, and automated test frameworks"),
-    emoji("⚡ Creating CI/CD pipelines for test automation using Jenkins & GitHub Actions"),
+    emoji(
+      "⚡ Writing robust automation test scripts using Selenium, WebDriverIO, and Cypress"
+    ),
+    emoji(
+      "⚡ Implementing API testing with Postman, RestAssured, and automated test frameworks"
+    ),
+    emoji(
+      "⚡ Creating CI/CD pipelines for test automation using Jenkins & GitHub Actions"
+    ),
     emoji("⚡ Performance & Load testing using JMeter and k6"),
-    emoji("⚡ Ensuring cross-browser compatibility and mobile automation using Appium"),
-    emoji("⚡ Developing test strategies and frameworks for scalable automation solutions"),
+    emoji(
+      "⚡ Ensuring cross-browser compatibility and mobile automation using Appium"
+    ),
+    emoji(
+      "⚡ Developing test strategies and frameworks for scalable automation solutions"
+    )
   ],
-
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
@@ -133,7 +142,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-leaf"
     }
   ],
-  display: true, // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 // Education Section
 
@@ -153,7 +162,6 @@ const educationInfo = {
     }
   ]
 };
-
 
 // Your top 3 proficient stacks/tech experience
 
@@ -361,9 +369,7 @@ const podcastSection = {
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
-  podcast: [
-    ""
-  ],
+  podcast: [""],
   display: false // Set false to hide this section, defaults to true
 };
 
