@@ -26,20 +26,17 @@ const greeting = {
     "💻 Software Engineer in Test (SDET) | 9+ Years Experience | Test Automation | Java, Selenium, API & Performance Testing| CI/CD | Docker | AWS | Building Scalable Test Frameworks"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+
+  linkedin: "https://www.linkedin.com/in/harsha-gowda-9036402468/",
+  gmail: "ksharshakumaranekal@gmail.com",
+
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -52,7 +49,7 @@ const skillsSection = {
   subTitle: "PASSIONATE AUTOMATION TESTER WHO ENSURES HIGH-QUALITY SOFTWARE",
   skills: [
     emoji(
-      "⚡ Writing robust automation test scripts using Selenium, WebDriverIO, and Cypress"
+      "⚡ Writing robust automation test scripts using Selenium with java"
     ),
     emoji(
       "⚡ Implementing API testing with Postman, RestAssured, and automated test frameworks"
@@ -75,16 +72,9 @@ https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
       skillName: "Selenium",
-      fontAwesomeClassname: "fab fa-selenium"
+      fontAwesomeClassname: "fab fa-firefox"
     },
-    {
-      skillName: "Cypress",
-      fontAwesomeClassname: "fas fa-vial"
-    },
-    {
-      skillName: "Playwright",
-      fontAwesomeClassname: "fas fa-mask"
-    },
+
     {
       skillName: "Appium",
       fontAwesomeClassname: "fas fa-mobile-alt"
@@ -105,14 +95,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "Java",
       fontAwesomeClassname: "fab fa-java"
     },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "TypeScript",
-      fontAwesomeClassname: "fab fa-node"
-    },
+    
     {
       skillName: "Git",
       fontAwesomeClassname: "fab fa-git-alt"
@@ -166,7 +149,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -193,27 +176,37 @@ const workExperiences = {
       role: "Software Engineer in Test 2 ",
       company: "Dutchview",
       companylogo: require("./assets/images/dutchview.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      date: "Aug 2019 – Present",
+      desc: "Led and executed manual and automation testing strategies, designed and maintained test plans and scripts, collaborated with developers and product managers to ensure test coverage, conducted functional, regression, and performance testing, automated tests using Selenium and Java, managed defects with JIRA/TestRail, and mentored junior testers to enhance testing processes.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Led manual and automation testing using Selenium and Java for quality releases.",
+        " Optimized defect tracking and mentored junior testers."
       ]
     },
+
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Senior Test Engineer",
+      company: "Mobinius",
+      companylogo: require("./assets/images/mobinius.png"),
+      date: "Jul 2017 – Jul 2019",
+       desc: "Managed end-to-end testing efforts, including manual and automation testing, to ensure high-quality software releases. Collaborated with developers and product teams to enhance test coverage and streamline defect management.",
+                descBullets: [
+                  "Test Automation & Quality Assurance – Designed and executed automated test scripts, improving testing efficiency.",
+                  "Process Optimization & Mentorship – Enhanced defect tracking workflows and guided junior testers."
+                ]
     },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
+     {
+          role: "Programming Analyst",
+          company: "Cognizant",
+          companylogo: require("./assets/images/cognizant.png"),
+          date: "Jul 2015 – Jun 2017",
+          desc: "Assisted in manual and automation testing processes to ensure software quality. Worked with senior testers and developers to identify bugs, execute test cases, and improve testing coverage.",
+          descBullets: [
+            "Test Execution & Defect Reporting – Conducted functional and regression testing, documenting defects for resolution.",
+            "Learning & Collaboration – Gained hands-on experience with testing tools and collaborated with teams to improve test processes."
+          ]
+
+          }
   ]
 };
 
@@ -228,29 +221,40 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/flexwhere.png"),
+      projectName: "Flexwhere",
+      projectDesc: "We empower businesses and their people to connect and collaborate in the workplace through our easy to use hot desk booking software. Your team decides when and where they want to be in office and can reserve a desk, parking spot or company car in just 2 clicks.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://flexwhere.com/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/edcontrols.png"),
+      projectName: "Ed controls",
+      projectDesc: "Leading construction companies use Ed Controls to make their work easier, faster, and better. All within one software.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://edcontrols.co.uk/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/Travelers.png"),
+      projectName: "The Travelers",
+      projectDesc: "The Travelers Companies, Inc., commonly known as Travelers, is an American insurance company. It is the second-largest writer of U.S. commercial property casualty insurance, and the sixth-largest writer of U.S. personal insurance through independent agents.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.travelers.com/"
         }
       ]
     }
@@ -270,21 +274,21 @@ const achievementSection = {
     {
       title: "Google Code-In Finalist",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+        "",
       image: require("./assets/images/codeInLogo.webp"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          url: ""
         },
         {
           name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+          url: ""
         },
         {
           name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          url: ""
         }
       ]
     },
@@ -311,7 +315,7 @@ const achievementSection = {
         {name: "Certification", url: ""},
         {
           name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          url: ""
         }
       ]
     }
@@ -379,15 +383,14 @@ const resumeSection = {
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  email_address: "ksharshakumaranekal@gmail.com"
 };
 
 // Twitter Section
