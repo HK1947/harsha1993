@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/harsha1993/static/css/main.56a7986b.css",
-    "main.js": "/harsha1993/static/js/main.83fecdfc.js",
-    "static/css/64.bba8fa55.chunk.css": "/harsha1993/static/css/64.bba8fa55.chunk.css",
-    "static/js/64.593bba6b.chunk.js": "/harsha1993/static/js/64.593bba6b.chunk.js",
-    "static/css/769.b3cbb36b.chunk.css": "/harsha1993/static/css/769.b3cbb36b.chunk.css",
-    "static/js/769.9fcb6b60.chunk.js": "/harsha1993/static/js/769.9fcb6b60.chunk.js",
+    "main.css": "/harsha1993/static/css/main.3f3c8108.css",
+    "main.js": "/harsha1993/static/js/main.5d331491.js",
+    "static/css/487.bb36206c.chunk.css": "/harsha1993/static/css/487.bb36206c.chunk.css",
+    "static/js/487.afecf070.chunk.js": "/harsha1993/static/js/487.afecf070.chunk.js",
+    "static/css/990.c6a7ee28.chunk.css": "/harsha1993/static/css/990.c6a7ee28.chunk.css",
+    "static/js/990.488b8b07.chunk.js": "/harsha1993/static/js/990.488b8b07.chunk.js",
     "static/media/Montserrat-Regular.ttf": "/harsha1993/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/ssec.png": "/harsha1993/static/media/ssec.5c568fc1963fe6a29419.png",
     "static/media/Agustina.woff": "/harsha1993/static/media/Agustina.eb0c59dda4cc308cba96.woff",
@@ -24,15 +24,15 @@
     "static/media/nextuLogo.webp": "/harsha1993/static/media/nextuLogo.e033dbfa4c58c0a906aa.webp",
     "index.html": "/harsha1993/index.html",
     "static/media/talksCardBack.svg": "/harsha1993/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.56a7986b.css.map": "/harsha1993/static/css/main.56a7986b.css.map",
-    "main.83fecdfc.js.map": "/harsha1993/static/js/main.83fecdfc.js.map",
-    "64.bba8fa55.chunk.css.map": "/harsha1993/static/css/64.bba8fa55.chunk.css.map",
-    "64.593bba6b.chunk.js.map": "/harsha1993/static/js/64.593bba6b.chunk.js.map",
-    "769.b3cbb36b.chunk.css.map": "/harsha1993/static/css/769.b3cbb36b.chunk.css.map",
-    "769.9fcb6b60.chunk.js.map": "/harsha1993/static/js/769.9fcb6b60.chunk.js.map"
+    "main.3f3c8108.css.map": "/harsha1993/static/css/main.3f3c8108.css.map",
+    "main.5d331491.js.map": "/harsha1993/static/js/main.5d331491.js.map",
+    "487.bb36206c.chunk.css.map": "/harsha1993/static/css/487.bb36206c.chunk.css.map",
+    "487.afecf070.chunk.js.map": "/harsha1993/static/js/487.afecf070.chunk.js.map",
+    "990.c6a7ee28.chunk.css.map": "/harsha1993/static/css/990.c6a7ee28.chunk.css.map",
+    "990.488b8b07.chunk.js.map": "/harsha1993/static/js/990.488b8b07.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.56a7986b.css",
-    "static/js/main.83fecdfc.js"
+    "static/css/main.3f3c8108.css",
+    "static/js/main.5d331491.js"
   ]
 }
